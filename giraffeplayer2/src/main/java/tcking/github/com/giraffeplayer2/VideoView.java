@@ -79,7 +79,7 @@ public class VideoView extends FrameLayout{
         activity= (Activity) context;
         container = new FrameLayout(context);
         addView(container,new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        initMediaController();
+        //initMediaController();
         setBackgroundColor(videoInfo.getBgColor());
     }
 
